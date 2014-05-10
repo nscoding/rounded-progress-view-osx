@@ -1,7 +1,7 @@
 RoundedProgressView
 ===================
 
-A sample rounded progress view for OS X.
+A simple rounded progress view for OS X.
 
 ![](demo.gif)
 
