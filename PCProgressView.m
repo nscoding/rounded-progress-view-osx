@@ -61,7 +61,7 @@
 {
     if ((self = [super initWithFrame:frame]))
     {
-        self.wantsLayer = YES;
+        self.wantsLayer = YES;        
         self.currentProgress = 0.0;
         self.duration = 0.4f;
         
@@ -123,7 +123,7 @@
     CGFloat borderWidth = MAX(self.progressLineWidth, self.backgroundLineWidth);
     CGFloat radius = (MIN(self.frame.size.width, self.frame.size.height) / 2.0f) - borderWidth;
     CGFloat diameter = (radius * 2.0f);
-    CGRect cirlceRect = CGRectMake(NSMidX(self.frame) - radius, NSMidY(self.frame) - radius, diameter, diameter);
+    CGRect cirlceRect = CGRectMake(NSMidX(self.bounds) - radius, NSMidY(self.bounds) - radius, diameter, diameter);
 
     CGPathRef path = [self createCirclePathRefForRect:cirlceRect];
     
