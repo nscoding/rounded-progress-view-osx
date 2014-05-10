@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC46643C-CE78-4DE9-B1F4-D6C68A0FCBA3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rounded Progress View</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2584B80-1C17-4393-9205-C970137422CD</key>
+		<string>ssh://github.com/nscoding/rounded-progress-view-osx.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Rounded Progress View/Rounded Progress View.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2584B80-1C17-4393-9205-C970137422CD</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nscoding/rounded-progress-view-osx.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2584B80-1C17-4393-9205-C970137422CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2584B80-1C17-4393-9205-C970137422CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rounded-progress-view-osx</string>
+		</dict>
+	</array>
+</dict>
+</plist>
