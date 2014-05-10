@@ -65,7 +65,7 @@
         self.currentProgress = 0.0;
         self.duration = 0.4f;
         
-        self.progresslineWidth = 3.0f;
+        self.progressLineWidth = 3.0f;
         self.progressLineColor = [NSColor lightGrayColor];
         
         self.backgroundLineWidth = 6.0f;
@@ -120,7 +120,7 @@
     
     _progress = progress;
     
-    CGFloat borderWidth = MAX(self.progresslineWidth, self.backgroundLineWidth);
+    CGFloat borderWidth = MAX(self.progressLineWidth, self.backgroundLineWidth);
     CGFloat radius = (MIN(self.frame.size.width, self.frame.size.height) / 2.0f) - borderWidth;
     CGFloat diameter = (radius * 2.0f);
     CGRect cirlceRect = CGRectMake(NSMidX(self.frame) - radius, NSMidY(self.frame) - radius, diameter, diameter);
@@ -135,7 +135,7 @@
     self.progressLineLayer.path = self.backgroundLineLayer.path;
     self.progressLineLayer.fillColor = [NSColor clearColor].CGColor;
     self.progressLineLayer.strokeColor = self.progressLineColor.CGColor;
-    self.progressLineLayer.lineWidth = self.progresslineWidth;
+    self.progressLineLayer.lineWidth = self.progressLineWidth;
     
     CFTimeInterval animationDuration = (animated ? self.duration : 0.0);
     [self.progressLineLayer addAnimation:[self fillAnimationWithDuration:animationDuration]

@@ -23,7 +23,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     self.progressView = [[PCProgressView alloc] initWithFrame:[self.window.contentView bounds]];
-    self.progressView.progresslineWidth = 10.0f;
+    self.progressView.progressLineWidth = 10.0f;
     self.progressView.backgroundLineWidth = 20.0f;
     self.progressView.progressLineColor = [NSColor whiteColor];
     self.progressView.backgroundLineColor = [NSColor colorWithCalibratedRed:0.204f green:0.322f blue:0.427f alpha:1.00f];

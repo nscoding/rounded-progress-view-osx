@@ -34,7 +34,7 @@
 @property (nonatomic, assign) CGFloat progress;
 
 /// The line width of the receiver progress bar, defaults to 3.0f.
-@property (nonatomic, assign) CGFloat progresslineWidth;
+@property (nonatomic, assign) CGFloat progressLineWidth;
 
 /// The progress line color, defaults to light gray.
 @property (nonatomic, strong) NSColor *progressLineColor;

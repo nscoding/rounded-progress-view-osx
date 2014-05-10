@@ -3,13 +3,17 @@ RoundedProgressView
 
 A sample rounded progress view for OS X.
 
+![](demo.gif)
+
+Customizable properties:
+
 ```objc
 
 /// The current progress shown by the receiver.
 @property (nonatomic, assign) CGFloat progress;
 
 /// The line width of the receiver progress bar, defaults to 3.0f.
-@property (nonatomic, assign) CGFloat progresslineWidth;
+@property (nonatomic, assign) CGFloat progressLineWidth;
 
 /// The progress line color, defaults to light gray.
 @property (nonatomic, strong) NSColor *progressLineColor;
@@ -23,12 +27,6 @@ A sample rounded progress view for OS X.
 /// Specifies the basic duration of the animation, in seconds, defaults to 0.4.
 @property (nonatomic, assign) CFTimeInterval duration;
 
-/// Adjusts the current progress shown by the receiver, optionally animating the change.
-- (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
-
 @end
 
 ```
-
-![](Demo/demo.gif)
-
