@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7AF734191EA30800607903 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7AF733191EA30800607903 /* Cocoa.framework */; };
+		CD7AF73E191EA30800607903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD7AF73C191EA30800607903 /* InfoPlist.strings */; };
+		CD7AF740191EA30800607903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AF73F191EA30800607903 /* main.m */; };
+		CD7AF744191EA30800607903 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD7AF742191EA30800607903 /* Credits.rtf */; };
+		CD7AF747191EA30800607903 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AF746191EA30800607903 /* PCAppDelegate.m */; };
+		CD7AF74A191EA30800607903 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7AF748191EA30800607903 /* MainMenu.xib */; };
+		CD7AF74C191EA30800607903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7AF74B191EA30800607903 /* Images.xcassets */; };
+		CD7AF753191EA30800607903 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7AF752191EA30800607903 /* XCTest.framework */; };
+		CD7AF754191EA30800607903 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7AF733191EA30800607903 /* Cocoa.framework */; };
+		CD7AF75C191EA30800607903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD7AF75A191EA30800607903 /* InfoPlist.strings */; };
+		CD7AF75E191EA30800607903 /* Rounded_Progress_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AF75D191EA30800607903 /* Rounded_Progress_ViewTests.m */; };
+		CD7AF769191EA31900607903 /* PCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AF768191EA31900607903 /* PCProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7AF755191EA30800607903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7AF728191EA30800607903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7AF72F191EA30800607903;
+			remoteInfo = "Rounded Progress View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7AF730191EA30800607903 /* Rounded Progress View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rounded Progress View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AF733191EA30800607903 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD7AF736191EA30800607903 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD7AF737191EA30800607903 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD7AF738191EA30800607903 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD7AF73B191EA30800607903 /* Rounded Progress View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rounded Progress View-Info.plist"; sourceTree = "<group>"; };
+		CD7AF73D191EA30800607903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD7AF73F191EA30800607903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7AF741191EA30800607903 /* Rounded Progress View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rounded Progress View-Prefix.pch"; sourceTree = "<group>"; };
+		CD7AF743191EA30800607903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD7AF745191EA30800607903 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		CD7AF746191EA30800607903 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		CD7AF749191EA30800607903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD7AF74B191EA30800607903 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD7AF751191EA30800607903 /* Rounded Progress ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rounded Progress ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AF752191EA30800607903 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD7AF759191EA30800607903 /* Rounded Progress ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rounded Progress ViewTests-Info.plist"; sourceTree = "<group>"; };
+		CD7AF75B191EA30800607903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD7AF75D191EA30800607903 /* Rounded_Progress_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rounded_Progress_ViewTests.m; sourceTree = "<group>"; };
+		CD7AF767191EA31900607903 /* PCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCProgressView.h; path = ../../../PCProgressView.h; sourceTree = "<group>"; };
+		CD7AF768191EA31900607903 /* PCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCProgressView.m; path = ../../../PCProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7AF72D191EA30800607903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF734191EA30800607903 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AF74E191EA30800607903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF754191EA30800607903 /* Cocoa.framework in Frameworks */,
+				CD7AF753191EA30800607903 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7AF727191EA30800607903 = {
+			isa = PBXGroup;
+			children = (
+				CD7AF739191EA30800607903 /* Rounded Progress View */,
+				CD7AF757191EA30800607903 /* Rounded Progress ViewTests */,
+				CD7AF732191EA30800607903 /* Frameworks */,
+				CD7AF731191EA30800607903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7AF731191EA30800607903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF730191EA30800607903 /* Rounded Progress View.app */,
+				CD7AF751191EA30800607903 /* Rounded Progress ViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7AF732191EA30800607903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF733191EA30800607903 /* Cocoa.framework */,
+				CD7AF752191EA30800607903 /* XCTest.framework */,
+				CD7AF735191EA30800607903 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7AF735191EA30800607903 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF736191EA30800607903 /* AppKit.framework */,
+				CD7AF737191EA30800607903 /* CoreData.framework */,
+				CD7AF738191EA30800607903 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD7AF739191EA30800607903 /* Rounded Progress View */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF745191EA30800607903 /* PCAppDelegate.h */,
+				CD7AF746191EA30800607903 /* PCAppDelegate.m */,
+				CD7AF767191EA31900607903 /* PCProgressView.h */,
+				CD7AF768191EA31900607903 /* PCProgressView.m */,
+				CD7AF748191EA30800607903 /* MainMenu.xib */,
+				CD7AF74B191EA30800607903 /* Images.xcassets */,
+				CD7AF73A191EA30800607903 /* Supporting Files */,
+			);
+			path = "Rounded Progress View";
+			sourceTree = "<group>";
+		};
+		CD7AF73A191EA30800607903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF73B191EA30800607903 /* Rounded Progress View-Info.plist */,
+				CD7AF73C191EA30800607903 /* InfoPlist.strings */,
+				CD7AF73F191EA30800607903 /* main.m */,
+				CD7AF741191EA30800607903 /* Rounded Progress View-Prefix.pch */,
+				CD7AF742191EA30800607903 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7AF757191EA30800607903 /* Rounded Progress ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF75D191EA30800607903 /* Rounded_Progress_ViewTests.m */,
+				CD7AF758191EA30800607903 /* Supporting Files */,
+			);
+			path = "Rounded Progress ViewTests";
+			sourceTree = "<group>";
+		};
+		CD7AF758191EA30800607903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AF759191EA30800607903 /* Rounded Progress ViewTests-Info.plist */,
+				CD7AF75A191EA30800607903 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7AF72F191EA30800607903 /* Rounded Progress View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AF761191EA30800607903 /* Build configuration list for PBXNativeTarget "Rounded Progress View" */;
+			buildPhases = (
+				CD7AF72C191EA30800607903 /* Sources */,
+				CD7AF72D191EA30800607903 /* Frameworks */,
+				CD7AF72E191EA30800607903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rounded Progress View";
+			productName = "Rounded Progress View";
+			productReference = CD7AF730191EA30800607903 /* Rounded Progress View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7AF750191EA30800607903 /* Rounded Progress ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AF764191EA30800607903 /* Build configuration list for PBXNativeTarget "Rounded Progress ViewTests" */;
+			buildPhases = (
+				CD7AF74D191EA30800607903 /* Sources */,
+				CD7AF74E191EA30800607903 /* Frameworks */,
+				CD7AF74F191EA30800607903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7AF756191EA30800607903 /* PBXTargetDependency */,
+			);
+			name = "Rounded Progress ViewTests";
+			productName = "Rounded Progress ViewTests";
+			productReference = CD7AF751191EA30800607903 /* Rounded Progress ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7AF728191EA30800607903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Patrick Chamelo";
+				TargetAttributes = {
+					CD7AF750191EA30800607903 = {
+						TestTargetID = CD7AF72F191EA30800607903;
+					};
+				};
+			};
+			buildConfigurationList = CD7AF72B191EA30800607903 /* Build configuration list for PBXProject "Rounded Progress View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7AF727191EA30800607903;
+			productRefGroup = CD7AF731191EA30800607903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7AF72F191EA30800607903 /* Rounded Progress View */,
+				CD7AF750191EA30800607903 /* Rounded Progress ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7AF72E191EA30800607903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF73E191EA30800607903 /* InfoPlist.strings in Resources */,
+				CD7AF74C191EA30800607903 /* Images.xcassets in Resources */,
+				CD7AF744191EA30800607903 /* Credits.rtf in Resources */,
+				CD7AF74A191EA30800607903 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AF74F191EA30800607903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF75C191EA30800607903 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7AF72C191EA30800607903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF740191EA30800607903 /* main.m in Sources */,
+				CD7AF747191EA30800607903 /* PCAppDelegate.m in Sources */,
+				CD7AF769191EA31900607903 /* PCProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AF74D191EA30800607903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AF75E191EA30800607903 /* Rounded_Progress_ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7AF756191EA30800607903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7AF72F191EA30800607903 /* Rounded Progress View */;
+			targetProxy = CD7AF755191EA30800607903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7AF73C191EA30800607903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AF73D191EA30800607903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD7AF742191EA30800607903 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AF743191EA30800607903 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD7AF748191EA30800607903 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AF749191EA30800607903 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD7AF75A191EA30800607903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AF75B191EA30800607903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7AF75F191EA30800607903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD7AF760191EA30800607903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD7AF762191EA30800607903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounded Progress View/Rounded Progress View-Prefix.pch";
+				INFOPLIST_FILE = "Rounded Progress View/Rounded Progress View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD7AF763191EA30800607903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounded Progress View/Rounded Progress View-Prefix.pch";
+				INFOPLIST_FILE = "Rounded Progress View/Rounded Progress View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD7AF765191EA30800607903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rounded Progress View.app/Contents/MacOS/Rounded Progress View";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounded Progress View/Rounded Progress View-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rounded Progress ViewTests/Rounded Progress ViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD7AF766191EA30800607903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rounded Progress View.app/Contents/MacOS/Rounded Progress View";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounded Progress View/Rounded Progress View-Prefix.pch";
+				INFOPLIST_FILE = "Rounded Progress ViewTests/Rounded Progress ViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7AF72B191EA30800607903 /* Build configuration list for PBXProject "Rounded Progress View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AF75F191EA30800607903 /* Debug */,
+				CD7AF760191EA30800607903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AF761191EA30800607903 /* Build configuration list for PBXNativeTarget "Rounded Progress View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AF762191EA30800607903 /* Debug */,
+				CD7AF763191EA30800607903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD7AF764191EA30800607903 /* Build configuration list for PBXNativeTarget "Rounded Progress ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AF765191EA30800607903 /* Debug */,
+				CD7AF766191EA30800607903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7AF728191EA30800607903 /* Project object */;
+}
