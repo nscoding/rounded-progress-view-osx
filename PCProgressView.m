@@ -33,9 +33,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-#define RADIANS(degrees) ((degrees) / (180.0 / M_PI))
-
-
 // ------------------------------------------------------------------------------------------
 
 
@@ -61,7 +58,7 @@
 {
     if ((self = [super initWithFrame:frame]))
     {
-        self.wantsLayer = YES;        
+        self.wantsLayer = YES;
         self.currentProgress = 0.0;
         self.duration = 0.4f;
         
@@ -168,19 +165,17 @@
 - (CGPathRef)createCirclePathRefForRect:(CGRect)rect
 {
     CGFloat cornerRadius = (rect.size.width / 2);
-    
-	CGFloat minx = CGRectGetMinX(rect), midx = CGRectGetMidX(rect), maxx = CGRectGetMaxX(rect);
-	CGFloat miny = CGRectGetMinY(rect), midy = CGRectGetMidY(rect), maxy = CGRectGetMaxY(rect);
+    CGFloat minx = CGRectGetMinX(rect), midx = CGRectGetMidX(rect), maxx = CGRectGetMaxX(rect);
+    CGFloat miny = CGRectGetMinY(rect), midy = CGRectGetMidY(rect), maxy = CGRectGetMaxY(rect);
+
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path, NULL, midx + 0.5f, maxy + 0.5f);
-
     CGPathAddArcToPoint(path, NULL, maxx + 0.5f, maxy + 0.5f, maxx + 0.5f, midy + 0.5f, cornerRadius);
     CGPathAddArcToPoint(path, NULL, maxx + 0.5f, miny + 0.5f, midx + 0.5f, miny + 0.5f, cornerRadius);
     CGPathAddArcToPoint(path, NULL, minx + 0.5f, miny + 0.5f, minx + 0.5f, midy + 0.5f, cornerRadius);
     CGPathAddArcToPoint(path, NULL, minx + 0.5f, maxy + 0.5f, midx + 0.5f, maxy + 0.5f, cornerRadius);
-
     CGPathCloseSubpath(path);
-    
+
     return path;
 }
 
