@@ -52,24 +52,44 @@
 
 
 // ------------------------------------------------------------------------------------------
-#pragma mark - Initializer
+#pragma mark - Initializers
 // ------------------------------------------------------------------------------------------
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if ((self = [super initWithFrame:frame]))
     {
-        self.wantsLayer = YES;
-        self.currentProgress = 0.0;
-        self.duration = 0.4f;
-        
-        self.progressLineWidth = 3.0f;
-        self.progressLineColor = [NSColor lightGrayColor];
-        
-        self.backgroundLineWidth = 6.0f;
-        self.backgroundLineColor = [NSColor darkGrayColor];
+        [self configure];
     }
     
     return self;
+}
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if ((self = [super initWithCoder:aDecoder]))
+    {
+        [self configure];
+    }
+    
+    return self;
+}
+
+
+// ------------------------------------------------------------------------------------------
+#pragma mark - Configure
+// ------------------------------------------------------------------------------------------
+- (void)configure
+{
+    self.wantsLayer = YES;
+    self.currentProgress = 0.0;
+    self.duration = 0.4f;
+    
+    self.progressLineWidth = 3.0f;
+    self.progressLineColor = [NSColor lightGrayColor];
+    
+    self.backgroundLineWidth = 6.0f;
+    self.backgroundLineColor = [NSColor darkGrayColor];
 }
 
 
@@ -145,7 +165,7 @@
 
 
 // ------------------------------------------------------------------------------------------
-#pragma mark - Animation
+#pragma mark - Animation helper
 // ------------------------------------------------------------------------------------------
 - (CABasicAnimation *)fillAnimationWithDuration:(CFTimeInterval)duration
 {
@@ -162,8 +182,18 @@
 }
 
 
+
+// ------------------------------------------------------------------------------------------
+#pragma mark - CGPath helper
+// ------------------------------------------------------------------------------------------
 - (CGPathRef)createCirclePathRefForRect:(CGRect)rect
 {
+    /**
+     CGPathAddEllipseInRect creates the path in an anticlockwise direction and
+     the "strokeEnd" values/animation is reverted. By creating the path ourselfs we ensure
+     that the direction is clockwise and the animation direction is correct.
+    */
+     
     CGFloat cornerRadius = (rect.size.width / 2);
     CGFloat minx = CGRectGetMinX(rect), midx = CGRectGetMidX(rect), maxx = CGRectGetMaxX(rect);
     CGFloat miny = CGRectGetMinY(rect), midy = CGRectGetMidY(rect), maxy = CGRectGetMaxY(rect);
