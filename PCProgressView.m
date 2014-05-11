@@ -1,6 +1,6 @@
 //
-//  NSCProgressView.m
-//  NSCProgressView
+//  PCProgressView.m
+//  PCProgressView
 //
 //  Created by Patrick Chamelo on 10/05/14.
 //  Copyright (c) 2014 Patrick Chamelo. All rights reserved.
