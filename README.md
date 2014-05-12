@@ -27,6 +27,4 @@ Customizable properties:
 /// Specifies the basic duration of the animation, in seconds, defaults to 0.4.
 @property (nonatomic, assign) CFTimeInterval duration;
 
-@end
-
 ```
