@@ -135,6 +135,8 @@
     progress = MIN(progress, 1.0f);
     progress = MAX(progress, 0.0f);
     
+    CGFloat startingProgress = _progress;
+    
     _progress = progress;
     
     CGFloat borderWidth = MAX(self.progressLineWidth, self.backgroundLineWidth);
@@ -161,6 +163,17 @@
     self.currentProgress = _progress;
 
     CGPathRelease(path);
+    
+    if (animated == YES && self.repeat == YES && animationDuration > 1.0)
+    {
+        [self performSelector:@selector(repeat:) withObject:@(startingProgress) afterDelay:animationDuration];
+    }
+}
+
+- (void) repeat:(NSNumber*)startFrom {
+    if (![self superview])return;
+    [self setProgress:startFrom.floatValue animated:NO];
+    [self setProgress:1.0 animated:YES];
 }
 
 
