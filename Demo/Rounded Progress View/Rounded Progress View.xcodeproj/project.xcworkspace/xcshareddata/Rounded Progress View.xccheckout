@@ -10,29 +10,29 @@
 	<string>Rounded Progress View</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C2584B80-1C17-4393-9205-C970137422CD</key>
+		<key>B5F2810B6E8EB64FA01FC8ACD6142CE301A124C1</key>
 		<string>ssh://github.com/nscoding/rounded-progress-view-osx.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Demo/Rounded Progress View/Rounded Progress View.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C2584B80-1C17-4393-9205-C970137422CD</key>
+		<key>B5F2810B6E8EB64FA01FC8ACD6142CE301A124C1</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/nscoding/rounded-progress-view-osx.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C2584B80-1C17-4393-9205-C970137422CD</string>
+	<string>B5F2810B6E8EB64FA01FC8ACD6142CE301A124C1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C2584B80-1C17-4393-9205-C970137422CD</string>
+			<string>B5F2810B6E8EB64FA01FC8ACD6142CE301A124C1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>rounded-progress-view-osx</string>
 		</dict>

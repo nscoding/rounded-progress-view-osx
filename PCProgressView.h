@@ -48,6 +48,9 @@
 /// Specifies the basic duration of the animation, in seconds, defaults to 0.4.
 @property (nonatomic, assign) CFTimeInterval duration;
 
+/// Adjusts the current progress shown by the receiver without animations.
+- (void)setProgress:(CGFloat)progress;
+
 /// Adjusts the current progress shown by the receiver, optionally animating the change.
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
 
